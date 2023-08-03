@@ -1,0 +1,20 @@
+p.style.top = 0; 
+   p.innerHTML = '+'; 
+   o.appendChild(span); 
+   o.appendChild(p); 
+  } 
+  function spr(){ 
+   r += R*speed; 
+   ri+= Ri*speed/2; 
+   sp = o.getElementsByTagName('span'); 
+   p = o.getElementsByTagName('p'); 
+   for(var i=0; i<sp.length;i++){ 
+    sp[i].style.left=r*Math.cos(360/s*i)+'px'; 
+    sp[i].style.top=r*Math.sin(360/s*i)+'px'; 
+    p[i].style.left=ri*Math.cos(360/s*i)+'px'; 
+    p[i].style.top=ri*Math.sin(360/s*i)+'px'; 
+   } 
+   R-=R*speed; 
+   if(R<2){ 
+    clearInterval(clearI); 
+    o.parentNode.removeChi
