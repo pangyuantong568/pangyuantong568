@@ -1,0 +1,10 @@
+aUser = proxy.createUserFromExternal(userId); 
+			if (aUser != null) 
+				System.out.println("SampleUserManagerImpl.doGetUserByUniqueDeviceId:- User with "+userId+" is found."); 
+			else 
+				System.out.println("SampleUserManagerImpl.doGetUserByUniqueDeviceId:- User with "+userId+" not found"); 
+		} catch (Exception ex) { 
+			System.out.println("SampleUserManagerImpl.doGetUserByUniqueDeviceId:- User "+userId+" not found)"); 
+			throw new com.sun.content.server.service.security.util.UserProfileResourceException(ex); 
+		} 
+		return aUser
