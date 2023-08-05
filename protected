@@ -1,0 +1,8 @@
+protected User doGetAnonymousUser() throws UserProfileResourceException { 
+		return new SampleUserImpl(); 
+	} 
+   
+	protected User doGetUser(String userId) throws UserProfileResourceException { 
+ 
+		User aUser = null; 
+		try { 
