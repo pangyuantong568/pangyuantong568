@@ -1,0 +1,15 @@
+ // Create an instance of External Directorory server Client Proxy 
+    public SampleExternalProxy() throws Exception { 
+ 
+                // User the external package to instanciate the Proxu 
+                // You need to use the client/server setting in the 
+    // operatorproxy.properties 
+                // The following assume you implemented a class OperatorProxyProperties 
+    // to read the configuration values. 
+ 
+		String hostname = OperatorProxyProperties.EXTERNAL_SERVER_ADDRESS;  
+		String port = OperatorProxyProperties.EXTERNAL_SERVER_PORT;  
+		String clientLoginId = OperatorProxyProperties.CLIENT_LOGIN;  
+    	    String clientPassword = OperatorProxyProperties.CLIENT_PASSWRD; 
+     
+            // instan 
