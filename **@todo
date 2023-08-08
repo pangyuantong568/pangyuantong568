@@ -1,0 +1,17 @@
+ public boolean isConfirmed() { 
+        /**@todo:Implement this com.sun.content.server.service.security.User method*/ 
+        throw new java.lang.UnsupportedOperationException("Method isConfirmed() not yet implemented."); 
+    } 
+ 
+    public void updateLastLogin() throws java.lang.Exception { 
+        /**@todo:Implement this com.sun.content.server.service.security.User method*/ 
+        throw new java.lang.UnsupportedOperationException("Method updateLastLogin() not yet implemented."); 
+    } 
+ 
+    public String getMiddleName() { 
+        return (String)fInfo.get("middleName"); 
+    } 
+    public void setMiddleName(String param1) { 
+        if (param1 != null) 
+            fInfo.put("middleName", param1); 
+    } 
