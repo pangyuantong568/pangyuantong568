@@ -1,0 +1,6 @@
+     Demo.display(
+                    TableSchema.SYS_TABLES
+                    + " table_flags are:\nTableSchema.TABLE_IS_SYSTEM(0x"
+                    + Integer.toHexString( ((int)TABLE_FLAG_SYSTEM) & 0xffff )
+                    + "),\nTableSchema.TABLE_IS_NOSYNC(0x"
+                    + Integer.toHexString( ((int)TABLE_FLAG_NO_SYNC) & 0xffff )
