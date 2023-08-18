@@ -1,0 +1,6 @@
+// by default everything will pass through fine 
+  // but you can change these at runtime. 
+  public static int AUTHORIZE_RESPONSE = SUCCESS; 
+  public static int GET_BILLING_INFO_RESPONSE = SUCCESS; 
+  public static int GET_BILLING_INFOS_RESPONSE = SUCCESS; 
+  public static int CONFIRM_RESPONSE = SUCCESS; 
