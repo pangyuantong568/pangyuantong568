@@ -1,0 +1,6 @@
+public class ExportToFileValidationAdapter 
+extends ValidationAdapter 
+{ 
+  public ValidationContent execute( 
+    ValidationContent content, Properties properties) 
+  throws Exception 
