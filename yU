@@ -1,0 +1,4 @@
+ displayUsage(); 
+    } 
+ 
+    if (selector == null) 
