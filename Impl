@@ -1,0 +1,8 @@
+ public SampleUserImpl createUserFromExternal(String loginId)  
+            throw Exception { 
+ 
+		System.out.println("DEBUG:SampleExternal Proxy --- createUserFromExternal "); 
+		System.out.println(" Creating a SampleUserImpl from External Directory ...."); 
+		System.out.println(" Reference Login Id = "+loginId); 
+ 
+        try { 
